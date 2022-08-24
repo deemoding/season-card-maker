@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'FlatEarthScribe';
+    src: url('flatearthscribe-regular.eot');
+    src: url('flatearthscribe-regular.eot?#iefix') format('embedded-opentype'),
+         url('flatearthscribe-regular.woff2') format('woff2'),
+         url('flatearthscribe-regular.woff') format('woff'),
+         url('flatearthscribe-regular.ttf') format('truetype'),
+         url('flatearthscribe-regular.svg#FlatEarthScribe') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calisto';
+    src: url('calismtbol.eot');
+    src: url('calismtbol.eot?#iefix') format('embedded-opentype'),
+         url('calismtbol.woff2') format('woff2'),
+         url('calismtbol.woff') format('woff'),
+         url('calismtbol.ttf') format('truetype'),
+         url('calismtbol.svg#Calisto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Myriad';
+    src: url('myriadpro-regular.eot');
+    src: url('myriadpro-regular.eot?#iefix') format('embedded-opentype'),
+         url('myriadpro-regular.woff2') format('woff2'),
+         url('myriadpro-regular.woff') format('woff'),
+         url('myriadpro-regular.ttf') format('truetype'),
+         url('myriadpro-regular.svg#Myriad') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#illustration_credit {
+  border: 1px solid red;
+}
+
+textarea {
+  background: transparent;
+  padding: 10px;
+}
+
+#download, #more {
+  white-space: normal;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid green;
+}
+#more {
+  font-size: 12px;
+}
+#download:hover, #more:hover {
+  background: #ececec;
+}
+#gallery {
+  font-weight: bold;
+  font-size: 18px;
+}
